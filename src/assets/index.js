@@ -7,7 +7,7 @@ import css from "./css.png";
 import javascript from "./javascript.png";
 import python from "./python.png";
 import react from "./react.png";
-import Node from "./Nodejs.png";
+import Node from "./nodejs.png";
 import tailwind from "./tailwind.png";
 import figma from "./figma.png";
 import nextjs from "./nextjs.png";
