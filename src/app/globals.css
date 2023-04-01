@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero-image {
+    background:url("../assets/bg-pattern.png") center no-repeat;
+    
+}
+
+.about-me {
+    background: url("../assets/bg-about.png") top center no-repeat;
+
+}
