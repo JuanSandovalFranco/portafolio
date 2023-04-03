@@ -80,7 +80,7 @@ export const projects = [
     url: "https://www.google.com",
     images: [natours_1, natours_2, natours_3],
     description:
-      "Aplicacion de tures con logica de reservas de los mismos, funcionalidades de geolocalizacion y trayectos de los destinos, con pagina de usuarios y login",
+      "Aplicacion de tures con reservacion y pago del viaje por tour, funcionalidades de geolocalizacion y trayectos de los destinos, con pagina de usuarios y login",
     tech: ["node js", "pug", "express js", "mongoDB", "javascript"],
   },
   {

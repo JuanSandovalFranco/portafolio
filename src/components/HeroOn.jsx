@@ -16,6 +16,7 @@ const HeroOn = () => {
       <div className="w-full h-full flex justify-center items-center md:justify-end md:items-end relative">
         <Image
           src={foto_me}
+          priority={true}
           alt="design and developer, juan dev"
           className=" object-cover rounded-[50px] shadow-2xl w-[70%] h-[70%] md:w-[80%] md:h-[70%] "
         />

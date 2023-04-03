@@ -23,6 +23,7 @@ const NavBar = () => {
       <Link href="/">
         <Image
           src={logo}
+          priority={true}
           width={180}
           height={100}
           alt="logo juandev portafolio"
@@ -53,12 +54,17 @@ const NavBar = () => {
             </li>
           ))}
         </ul>
-        <div className="flex gap-5 text-gray-800">
-          <a href="https://github.com/JuanSandovalFranco" target="_blank">
+        <div className=" text-gray-800 hidden lg:flex gap-5">
+          <a
+            href="https://github.com/JuanSandovalFranco"
+            target="_blank"
+            title="ir a mi perfil de github"
+          >
             <IoLogoGithub className="text-4xl cursor-pointer" />
           </a>
           <a
             href="https://www.linkedin.com/in/juan-david-sandoval-franco-a74b56228/"
+            title="ir a mi perfil de linkedin"
             target="_blank"
           >
             <IoLogoLinkedin className="text-4xl cursor-pointer" />

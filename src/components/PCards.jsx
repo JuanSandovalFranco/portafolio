@@ -20,6 +20,7 @@ const PCards = ({ project }) => {
         <button
           className=" rounded-full p-4 bg-main text-white text-3xl shadow-2xl hover:-mt-1"
           onClick={(e) => setMore((prev) => !prev)}
+          aria-label="abrir menu de opciones para elegir mas elementos del proyecto"
         >
           <IoAdd />
         </button>
@@ -57,13 +58,7 @@ const PCards = ({ project }) => {
         <p className="text-md text-gray-500">{project.description}</p>
         <div className="flex gap-2 flex-wrap">
           {project.tech.map((el) => (
-            <span
-              key={el}
-              className="capitalize text-sm"
-              style={{
-                color: `#${Math.floor(Math.random() * 16777215).toString(16)}`,
-              }}
-            >
+            <span key={el} className="capitalize text-sm text-main">
               #{el}
             </span>
           ))}
