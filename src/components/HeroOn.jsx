@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { foto_me } from "assets";
-import { Link as ScrollLink } from "react-scroll";
+import Link from "next/link";
 
 const HeroOn = () => {
   return (
@@ -20,15 +20,13 @@ const HeroOn = () => {
           alt="design and developer, juan dev"
           className=" object-cover rounded-[50px] shadow-2xl w-[70%] h-[70%] md:w-[80%] md:h-[70%] "
         />
-        <ScrollLink
-          to="contacto"
-          smooth={true}
-          spy={true}
+        <Link
+          href="#contacto"
           className="absolute transition-all duration-200 top-[10%] md:top-[25%] left-auto md:left-[10%] bg-third shadow-md p-5 md:py-8 md:px-20 sm:px-20 text-white text-2xl md:text-4xl hover:ml-5 lg:hover:ml-10 cursor-pointer"
           duration={600}
         >
           Contactame &rarr;
-        </ScrollLink>
+        </Link>
       </div>
     </section>
   );
