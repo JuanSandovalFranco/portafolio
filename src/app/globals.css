@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+    scroll-behavior: smooth;
+}
+
 .hero-image {
     background:url("../assets/bg-pattern.png") center no-repeat;
     

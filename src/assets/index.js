@@ -16,7 +16,6 @@ import mysql from "./mysql.png";
 import websiteLanding from "./hidrobombas.png";
 import puntobank_1 from "./puntobank-1.png";
 import puntobank_2 from "./puntobank-2.png";
-import puntobank_3 from "./puntobank-3.png";
 import natours_1 from "./natours-1.png";
 import natours_2 from "./natours-2.png";
 import natours_3 from "./natours-3.png";
@@ -43,7 +42,6 @@ export {
   websiteLanding,
   puntobank_1,
   puntobank_2,
-  puntobank_3,
   natours_1,
   natours_2,
   natours_3,

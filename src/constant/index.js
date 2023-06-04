@@ -16,7 +16,6 @@ import {
   natours_3,
   puntobank_1,
   puntobank_2,
-  puntobank_3,
   e_commerce,
   puntobank,
   freelancer,
@@ -86,7 +85,7 @@ export const projects = [
   {
     name: "app de aprobaciones de credito bancarias",
     url: "https://dashboard.puntobank.co/login",
-    images: [puntobank_1, puntobank_2, puntobank_3],
+    images: [puntobank_1, puntobank_2],
     description:
       "Apliacion web de aprobaciones de credito bancarias, operaciones crud, para crear editar y eliminar solicitudes de los clientes, contiene roles y creacion de nuevos usuarios, con un dashboard de graficas incluidas",
     tech: ["react.js", "tailwind", "context api", "API REST"],
@@ -97,7 +96,7 @@ export const projects = [
     url: "https://www.google.com",
     images: [e_commerce],
     description:
-      "e-commerce en linea de venta de sneakers y ropa en general, como asi tambien de celulares y tecnologia, con usuarios y carrito, con checkout de compras, (proyecto propio y todavia esta en construccion)",
+      "e-commerce en linea de venta de ropa como camisetas, sudaderas, chaquetas (proyecto propio y todavia esta en construccion)",
     tech: [
       "react.js",
       "mongo db",

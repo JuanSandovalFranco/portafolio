@@ -12,7 +12,6 @@ import {
 } from "react-icons/io5";
 import { motion } from "framer-motion";
 import { navLinks, variantsNav } from "constant";
-import { Link as ScrollLink } from "react-scroll";
 
 const NavBar = () => {
   const [toogle, setToogle] = useState(false);
@@ -33,11 +32,8 @@ const NavBar = () => {
         <ul className="list-none hidden sm:flex gap-2 items-center">
           {navLinks.map((link) => (
             <li key={link.id}>
-              <ScrollLink
-                spy={true}
-                smooth={true}
-                duration={800}
-                to={link.id}
+              <a
+                href={`#${link.id}`}
                 className={`transition duration-150 text-slate-500 px-5 py-2 ${
                   active === link.id && link.id !== "contacto"
                     ? "text-gray-900"
@@ -50,7 +46,7 @@ const NavBar = () => {
                 onClick={(e) => setActive(link.id)}
               >
                 {link.title}
-              </ScrollLink>
+              </a>
             </li>
           ))}
         </ul>
@@ -90,11 +86,8 @@ const NavBar = () => {
         <ul className="flex flex-col gap-10 text-2xl font-bold">
           {navLinks.map((link) => (
             <li key={link.id}>
-              <ScrollLink
-                spy={true}
-                smooth={true}
-                duration={800}
-                to={link.id}
+              <a
+                href={`#${link.id}`}
                 className="text-slate-500 px-5 py-2 transition-all duration-150 hover:ml-5 hover:text-3xl hover:text-third cursor-pointer"
                 onClick={(e) => {
                   setToogle((prev) => !prev);
@@ -102,7 +95,7 @@ const NavBar = () => {
                 }}
               >
                 {link.title}
-              </ScrollLink>
+              </a>
             </li>
           ))}
         </ul>
